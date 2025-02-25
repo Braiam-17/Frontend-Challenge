@@ -13,7 +13,7 @@ import './index.css'; // Importamos Tailwind CSS
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Frontend-Challenge">
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <App />
