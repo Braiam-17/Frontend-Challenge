@@ -7,6 +7,7 @@ function App() {
   return (
     <Layout>
       <Routes>
+        <Route path="/Frontend-Challenge/" element={<PostList />} />
         <Route path="/" element={<PostList />} />
         <Route path="/post/:id" element={<PostDetail />} />
       </Routes>
